@@ -45,23 +45,30 @@ Este é um projeto de clone da pagina inicial do Spotify desenvolvido em HTML, C
 
 ```bash
 git clone https://github.com/ryan-ribeiro/clone-spotify.git
+```
+### 2️⃣ Instalar as dependências
+Caso queira ver a vesão sem React, use:
+```
 cd clone-spotify
 ```
-
-### 2️⃣ Instalar as dependências
+Caso contrário, use:
+```
+cd spotify-react
+```
+### 3️⃣ Instalar as dependências
 
 **É necessário o Node.js**
 ```bash
 npm install @testing-library/react@latest web-vitals
 ```
 
-### 3️⃣ Iniciar o JSON Server
+### 4️⃣ Iniciar o JSON Server
 
 ```bash
 npx json-server --watch api-artists/artists.json --port 3000
 ```
 
-### 4️⃣ Rodar o projeto React
+### 5️⃣ Rodar o projeto React
 
 ```bash
 npm start
